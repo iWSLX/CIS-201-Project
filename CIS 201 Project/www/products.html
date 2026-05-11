@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verdant Products</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="loadTheme()">
+
+
+<div class="header">
+
+  <div class="logo">
+    <div class="logo-icon">🌿</div>
+    <div class="logo-text">Verdant<span>.</span></div>
+  </div>
+
+  <div class="nav">
+    <a href="home.html" class="nav-link">Home</a>
+    <a href="products.html" class="nav-link active">Products</a>
+    <a href="about.html" class="nav-link">About</a>
+    <a href="contact.html" class="nav-link">Contact</a>
+  </div>
+
+  <div class="header-right">
+    <div class="cart-btn" onclick="window.location='products.html'">
+      🛍️ <div class="cart-count">0</div>
+    </div>
+    <div class="night-btn" id="nightBtn" onclick="toggleNight()">🌙 Night</div>
+  </div>
+
+</div>
+
+
+
+<div class="page-bg">
+  <div class="wrap">
+
+    
+    <div class="page-title">
+      <div class="page-title-text"><span>Our</span> Products</div>
+      <div class="page-title-sub">Simple, quality clothing — made to last.</div>
+    </div>
+
+    <div class="product-row">
+
+      <!-- product 1 -->
+      <div class="product-box">
+        <div class="product-img"> <img src="white shirt.png" ></div>
+        <div class="product-info">
+          <div class="product-name">Classic White Linen Shirt</div>
+          <div class="product-price">299.00 SAR</div>
+          <div class="product-desc">100% natural linen with a relaxed, breathable fit. Available in sizes S – XXL. Machine washable.</div>
+          <div class="add-btn" onclick="addToCart('Classic White Linen Shirt')">Add to Cart</div>
+        </div>
+      </div>
+
+      <!-- product 2 -->
+      <div class="product-box">
+        <div class="product-img"><img src="olive pants.png" ></div>
+        <div class="product-info">
+          <div class="product-name">Olive Cargo Pants</div>
+          <div class="product-price">450.00 SAR</div>
+          <div class="product-desc">Heavy-duty canvas fabric with a modern tapered leg. Six functional pockets. Sizes 28 – 38.</div>
+          <div class="add-btn" onclick="addToCart('Olive Cargo Pants')">Add to Cart</div>
+        </div>
+      </div>
+
+       <!-- product 3 -->
+      <div class="product-box">
+        <div class="product-img"><img src="black pants.png" > </div>
+        <div class="product-info">
+          <div class="product-name">black cargo Pants </div>
+          <div class="product-price">399.00 SAR</div>
+          <div class="product-desc">Heavy-duty canvas fabric with a modern tapered leg. Six functional pockets. Sizes 28 – 38.</div>
+          <div class="add-btn" onclick="addToCart('Classic White Linen Shirt')">Add to Cart</div>
+        </div>
+      </div>
+
+
+       <!-- product 4 -->
+      <div class="product-box">
+        <div class="product-img"><img src="black shirt.png" ></div>
+        <div class="product-info">
+          <div class="product-name">Classic black Linen Shirt</div>
+          <div class="product-price">299.00 SAR</div>
+          <div class="product-desc">100% natural linen with a relaxed, breathable fit. Available in sizes S – XXL. Machine washable.</div>
+          <div class="add-btn" onclick="addToCart('Classic White Linen Shirt')">Add to Cart</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<div class="footer">
+  <div>Student Name: <b>Abdulaziz Alamer & Younis Alghamdi</b></div>
+  <div>Course: <b>CIS 201 – Fundamentals of Web Design</b></div>
+  <div>© Al Yamamah University 2026</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
