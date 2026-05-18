@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verdant Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="loadTheme()">
+
+
+<div class="header">
+
+  <div class="logo">
+    <div class="logo-icon">🌿</div>
+    <div class="logo-text">Verdant<span>.</span></div>
+  </div>
+
+  <div class="nav">
+    <a href="home.html" class="nav-link active">Home</a>
+    <a href="products.html" class="nav-link">Products</a>
+    <a href="about.html" class="nav-link">About</a>
+    <a href="contact.html" class="nav-link">Contact</a>
+  </div>
+
+  <div class="header-right">
+    <div class="cart-btn" onclick="window.location='products.html'">
+      🛍️ <div class="cart-count">0</div>
+    </div> 
+    <div class="night-btn" id="nightBtn" onclick="toggleNight()"> 🌙 Night</div>
+  </div>
+
+</div>
+
+
+
+
+<div class="hero">
+  <div class="hero-box">
+    <div class="hero-tag">New Collection 2026</div>
+    <div class="hero-title">Wear What<br>Matters</div>
+    <div class="hero-small">Natural & Sustainable Fashion</div>
+    <div class="hero-text">Let us add quality and intention to your wardrobe with our unique handpicked clothing, and is made in Saudi</div>
+    <a href="products.html" class="shop-btn">Shop Now</a>
+  </div>
+</div>
+
+
+
+
+<div class="page-bg">
+  <div class="wrap">
+
+    <div class="section-title">Featured Products</div>
+    <div class="section-sub">Our best-sellers</div>
+
+    <div class="product-row">
+
+      <div class="product-box">
+        <div class="product-img"> <img src="white shirt.png" ></div>
+        <div class="product-info">
+          <div class="product-name">Classic White Linen Shirt</div>
+          <div class="product-price">299.00 SAR</div>
+          <div class="product-desc">100% natural linen with a relaxed, breathable fit. </div>
+           <a href="products.html" class="add-btn">View in Shop</a>
+        </div>
+         
+        </div>
+
+
+
+         <div class="product-box">
+        <div class="product-img"><img src="olive pants.png" ></div>
+        <div class="product-info">
+          <div class="product-name">Olive Cargo Pants</div>
+          <div class="product-price">450.00 SAR</div>
+          <div class="product-desc">Heavy-duty canvas, modern tapered cut. Six functional pockets.</div>
+          <a href="products.html" class="add-btn">View in Shop</a>
+        </div>
+      </div>
+
+
+      </div>
+
+     
+
+    </div>
+  </div>
+</div>
+
+
+
+<!-- footer -->
+<div class="footer">
+  <div>Student Name: <b>Abdulaziz Alamer & Younis Alghamdi</b></div>
+  <div>Course: <b>CIS 201 – Fundamentals of Web Design</b></div>
+  <div>Al Yamamah University 2026</div>
+</div>
+<!-- end footer -->
+
+<script src="script.js"></script>
+</body>
+</html>
